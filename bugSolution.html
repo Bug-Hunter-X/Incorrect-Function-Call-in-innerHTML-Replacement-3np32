@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text will be replaced.
+  </div>
+
+  <script>
+    // Correct way to call the replaceText function and update innerHTML
+    document.getElementById("myDiv").innerHTML = replaceText(); 
+
+    function replaceText() {
+      return "<p>New text!</p>";
+    }
+  </script>
+</body>
+</html>
