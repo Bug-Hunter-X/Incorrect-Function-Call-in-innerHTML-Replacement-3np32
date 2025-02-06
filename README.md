@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle error in HTML, specifically regarding the use of functions within `innerHTML`.  The bug is that the function `replaceText` isn't called correctly when trying to update innerHTML.  The solution shows how to correctly call the function, resolving the issue. 
